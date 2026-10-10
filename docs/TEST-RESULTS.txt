@@ -1,0 +1,277 @@
+DLSS All Tools v0.6 verification — 2026-10-10
+
+Release and Debug builds: no compiler errors or warnings.
+Each build: 12 language + 83 transaction + 12 GPU package + 7 Neural regression = 114 passed.
+307 compiled translation entries, checked for duplicate keys and missing translations.
+Actual UI: Turkish main screen; English and Simplified Chinese main screens, DLSS5 and Preset B dialogs checked. Language change preserved the selected game and mod release. Chinese glyphs rendered, labels and close buttons visible. Actual close/reopen retained Simplified Chinese; Turkish was restored after QA.
+No actual game installation or NVIDIA setting changes. Installer tests use generated fixtures; actual game inspection and NVIDIA profile inspection are read-only.
+Windows-owned controls and upstream details can retain their own language.
+
+Release-language-tests
+PASS  Compiled catalog has unique complete translations
+PASS  Three languages preserve Unicode in wide and UTF-8 messages
+PASS  Preference survives reopening for each language
+PASS  Language and release preferences remain independent
+PASS  Missing preference defaults to Turkish without creating a file
+PASS  Malformed oversized or unknown preferences fall back safely
+PASS  Unicode preference folder works
+PASS  Failed save keeps active language and blocked path intact
+PASS  Invalid language cannot change memory or disk
+PASS  Game identities and paths survive all language changes
+PASS  GPU detection and labels work in each language
+PASS  Chinese font is selected without changing other locales
+
+12 passed, 0 failed.
+307 compiled translation entries. No game or driver changes.
+
+Release-self-test
+PASS  UTF-8 Turkish path round trip
+PASS  Steam VDF multi-library escaped paths
+PASS  Truncated VDF is rejected
+PASS  PE import table is read without loading executable
+PASS  Malformed PE cannot be used as game
+PASS  Game discovery excludes launchers and helper services
+PASS  Official DLL import and SHA-256 verification
+PASS  Unknown DLL is rejected without changing package
+PASS  Library persists Unicode paths and names
+PASS  Free imported proxy route is selected
+PASS  Install verified payload and durable receipt
+PASS  Duplicate install is rejected
+PASS  Uninstall keeps game, settings and unrelated files
+PASS  Existing foreign proxy DLL is never overwritten
+PASS  Changed installed DLL is never removed
+PASS  Manual installation is not adopted or deleted
+PASS  Legacy split installation blocks automatic install
+PASS  Interrupted install with missing DLL can be cleaned
+PASS  Interrupted pending receipt with complete DLL can be removed
+PASS  Forged receipt path cannot delete an unrelated file
+PASS  Forged receipt hash cannot authorize another file
+PASS  Locked installed DLL is preserved until released
+PASS  Hard-linked owned DLL is not deleted
+PASS  Missing Frame Generation component blocks installation
+PASS  Missing game executable does not prevent removal
+PASS  Corrupt cached DLL blocks install
+PASS  Running executable is detected
+PASS  Fresh manager defaults to previous release
+PASS  Release choice persists and caches stay separate
+PASS  Wrong release import is rejected without changing cached DLL
+PASS  Old package installs with matching version and hash receipt
+PASS  Selecting another release cannot overwrite installed version
+PASS  Known hash with mismatched version cannot authorize removal
+PASS  Newer selection removes older installation through its own receipt
+PASS  Older selection removes existing v0.1-compatible newer receipt
+PASS  Manual older package blocks install of newer version
+PASS  Missing older DLL receipt is recoverable with newer selection
+PASS  Unknown release cannot change selection or accept arbitrary URL
+PASS  Preset B sets BOTH driver values after durable backup
+PASS  Existing custom NVIDIA values restored exactly
+PASS  Missing settings are removed instead of forced off on restore
+PASS  Preset B alone still enables the companion override
+PASS  Already active driver workaround is not adopted
+PASS  Duplicate enable never replaces original driver backup
+PASS  Global NVIDIA profile can never be modified
+PASS  Profile shared with another game is rejected
+PASS  Cyberpunk profile with its registered launcher is supported
+PASS  Driver backup from another install path cannot be reused
+PASS  Changed NVIDIA setting blocks restore before either write
+PASS  NVIDIA save failure preserves recovery without claiming success
+PASS  Failure staging second driver setting does not persist first
+PASS  Partial NVIDIA save restores both values from journal
+PASS  Driver success without actual persistence fails verification
+PASS  Failed restore retains backup for retry
+PASS  Altered backup IDs cannot authorize unrelated driver setting
+PASS  Running game blocks profile changes before backup
+PASS  Profile restore works after game executable was removed
+PASS  Changed inherited defaults remain inherited on restore
+PASS  DLSS5 replaces and restores originals while preserving MFG
+PASS  DLSS5 removes newly added files
+PASS  DLSS5 shared identical files are not adopted or removed
+PASS  DLSS5 refuses altered source before any game write
+PASS  DLSS5 refuses duplicate paths before creating journal
+PASS  DLSS5 external binary change blocks entire restore
+PASS  DLSS5 changed game settings are archived before restore
+PASS  DLSS5 corrupted original backup blocks restore
+PASS  DLSS5 journal cannot escape selected game
+PASS  DLSS5 journal cannot target MFG proxy
+PASS  DLSS5 foreign game journal rejected
+PASS  DLSS5 interrupted copying restores partial deployment
+PASS  DLSS5 missing original EXE still permits restore
+PASS  DLSS5 reinstall cannot overwrite first backup
+PASS  DLSS5 recovery from preparing phase preserves untouched game
+PASS  DLSS5 INI updates retain unrelated settings and sections
+PASS  GPU generation parser covers desktop laptop and Super
+PASS  Unsupported GPUs never fall back to RTX40
+PASS  Hardware gate refuses series absent from current machine
+PASS  SM86 transaction restores config and leaves Neural files alone
+PASS  SM86 transaction cannot target Neural loader
+PASS  SM86 transaction interrupted copy can be undone
+PASS  SM86 altered binary blocks all removals
+PASS  SM86 forged journal path cannot remove Neural runtime
+PASS  Old RTX40 install cannot overlay managed SM86
+
+83 passed, 0 failed.
+Only isolated test fixtures and a simulated NVIDIA store were modified. No real driver settings or games were changed.
+
+Release-gpu-package-tests
+PASS  All four GPU runtime packages verified
+PASS  RTX20 SF-v2 and MFG coexist, MFG removed first
+PASS  RTX30 SF-v2 and MFG coexist, Neural removed first
+PASS  RTX50 original NR never resolves to RTX40 or SF-v2
+PASS  SM86 refuses RTX40 and RTX50 choices before writing
+PASS  SM86 requires existing FG and a utility load path
+PASS  SM86 does not overwrite occupied utility loader
+PASS  SM86 selects matching winmm binary without renaming version
+PASS  SM86 manual configuration retained and install refused
+PASS  SM86 explicit Vulkan DX11 OpenGL rejected
+PASS  SM86 missing game executable still allows restore
+PASS  SM86 detects modified download and repairs pinned file
+
+12 passed, 0 failed.
+Real pinned packages were copied as data into isolated fixtures. No GPU execution or game testing performed.
+
+Release-neural-package-tests
+PASS  Pinned RTX40 package fully verified
+PASS  Native actual binaries install and restore with MFG intact
+PASS  Existing add-on ReShade reused and remains after removal
+PASS  Unknown graphics proxy requires explicit option and round-trips
+PASS  Feeder actual package includes shaders and restores preset
+PASS  Rival DLSS5 consumer rejected before writing
+PASS  Unsupported renderer does not offer install
+
+7 passed, 0 failed.
+Real packages copied as data only. No DLL loaded, game launched or real game directory changed.
+
+Debug-language-tests
+PASS  Compiled catalog has unique complete translations
+PASS  Three languages preserve Unicode in wide and UTF-8 messages
+PASS  Preference survives reopening for each language
+PASS  Language and release preferences remain independent
+PASS  Missing preference defaults to Turkish without creating a file
+PASS  Malformed oversized or unknown preferences fall back safely
+PASS  Unicode preference folder works
+PASS  Failed save keeps active language and blocked path intact
+PASS  Invalid language cannot change memory or disk
+PASS  Game identities and paths survive all language changes
+PASS  GPU detection and labels work in each language
+PASS  Chinese font is selected without changing other locales
+
+12 passed, 0 failed.
+307 compiled translation entries. No game or driver changes.
+
+Debug-self-test
+PASS  UTF-8 Turkish path round trip
+PASS  Steam VDF multi-library escaped paths
+PASS  Truncated VDF is rejected
+PASS  PE import table is read without loading executable
+PASS  Malformed PE cannot be used as game
+PASS  Game discovery excludes launchers and helper services
+PASS  Official DLL import and SHA-256 verification
+PASS  Unknown DLL is rejected without changing package
+PASS  Library persists Unicode paths and names
+PASS  Free imported proxy route is selected
+PASS  Install verified payload and durable receipt
+PASS  Duplicate install is rejected
+PASS  Uninstall keeps game, settings and unrelated files
+PASS  Existing foreign proxy DLL is never overwritten
+PASS  Changed installed DLL is never removed
+PASS  Manual installation is not adopted or deleted
+PASS  Legacy split installation blocks automatic install
+PASS  Interrupted install with missing DLL can be cleaned
+PASS  Interrupted pending receipt with complete DLL can be removed
+PASS  Forged receipt path cannot delete an unrelated file
+PASS  Forged receipt hash cannot authorize another file
+PASS  Locked installed DLL is preserved until released
+PASS  Hard-linked owned DLL is not deleted
+PASS  Missing Frame Generation component blocks installation
+PASS  Missing game executable does not prevent removal
+PASS  Corrupt cached DLL blocks install
+PASS  Running executable is detected
+PASS  Fresh manager defaults to previous release
+PASS  Release choice persists and caches stay separate
+PASS  Wrong release import is rejected without changing cached DLL
+PASS  Old package installs with matching version and hash receipt
+PASS  Selecting another release cannot overwrite installed version
+PASS  Known hash with mismatched version cannot authorize removal
+PASS  Newer selection removes older installation through its own receipt
+PASS  Older selection removes existing v0.1-compatible newer receipt
+PASS  Manual older package blocks install of newer version
+PASS  Missing older DLL receipt is recoverable with newer selection
+PASS  Unknown release cannot change selection or accept arbitrary URL
+PASS  Preset B sets BOTH driver values after durable backup
+PASS  Existing custom NVIDIA values restored exactly
+PASS  Missing settings are removed instead of forced off on restore
+PASS  Preset B alone still enables the companion override
+PASS  Already active driver workaround is not adopted
+PASS  Duplicate enable never replaces original driver backup
+PASS  Global NVIDIA profile can never be modified
+PASS  Profile shared with another game is rejected
+PASS  Cyberpunk profile with its registered launcher is supported
+PASS  Driver backup from another install path cannot be reused
+PASS  Changed NVIDIA setting blocks restore before either write
+PASS  NVIDIA save failure preserves recovery without claiming success
+PASS  Failure staging second driver setting does not persist first
+PASS  Partial NVIDIA save restores both values from journal
+PASS  Driver success without actual persistence fails verification
+PASS  Failed restore retains backup for retry
+PASS  Altered backup IDs cannot authorize unrelated driver setting
+PASS  Running game blocks profile changes before backup
+PASS  Profile restore works after game executable was removed
+PASS  Changed inherited defaults remain inherited on restore
+PASS  DLSS5 replaces and restores originals while preserving MFG
+PASS  DLSS5 removes newly added files
+PASS  DLSS5 shared identical files are not adopted or removed
+PASS  DLSS5 refuses altered source before any game write
+PASS  DLSS5 refuses duplicate paths before creating journal
+PASS  DLSS5 external binary change blocks entire restore
+PASS  DLSS5 changed game settings are archived before restore
+PASS  DLSS5 corrupted original backup blocks restore
+PASS  DLSS5 journal cannot escape selected game
+PASS  DLSS5 journal cannot target MFG proxy
+PASS  DLSS5 foreign game journal rejected
+PASS  DLSS5 interrupted copying restores partial deployment
+PASS  DLSS5 missing original EXE still permits restore
+PASS  DLSS5 reinstall cannot overwrite first backup
+PASS  DLSS5 recovery from preparing phase preserves untouched game
+PASS  DLSS5 INI updates retain unrelated settings and sections
+PASS  GPU generation parser covers desktop laptop and Super
+PASS  Unsupported GPUs never fall back to RTX40
+PASS  Hardware gate refuses series absent from current machine
+PASS  SM86 transaction restores config and leaves Neural files alone
+PASS  SM86 transaction cannot target Neural loader
+PASS  SM86 transaction interrupted copy can be undone
+PASS  SM86 altered binary blocks all removals
+PASS  SM86 forged journal path cannot remove Neural runtime
+PASS  Old RTX40 install cannot overlay managed SM86
+
+83 passed, 0 failed.
+Only isolated test fixtures and a simulated NVIDIA store were modified. No real driver settings or games were changed.
+
+Debug-gpu-package-tests
+PASS  All four GPU runtime packages verified
+PASS  RTX20 SF-v2 and MFG coexist, MFG removed first
+PASS  RTX30 SF-v2 and MFG coexist, Neural removed first
+PASS  RTX50 original NR never resolves to RTX40 or SF-v2
+PASS  SM86 refuses RTX40 and RTX50 choices before writing
+PASS  SM86 requires existing FG and a utility load path
+PASS  SM86 does not overwrite occupied utility loader
+PASS  SM86 selects matching winmm binary without renaming version
+PASS  SM86 manual configuration retained and install refused
+PASS  SM86 explicit Vulkan DX11 OpenGL rejected
+PASS  SM86 missing game executable still allows restore
+PASS  SM86 detects modified download and repairs pinned file
+
+12 passed, 0 failed.
+Real pinned packages were copied as data into isolated fixtures. No GPU execution or game testing performed.
+
+Debug-neural-package-tests
+PASS  Pinned RTX40 package fully verified
+PASS  Native actual binaries install and restore with MFG intact
+PASS  Existing add-on ReShade reused and remains after removal
+PASS  Unknown graphics proxy requires explicit option and round-trips
+PASS  Feeder actual package includes shaders and restores preset
+PASS  Rival DLSS5 consumer rejected before writing
+PASS  Unsupported renderer does not offer install
+
+7 passed, 0 failed.
+Real packages copied as data only. No DLL loaded, game launched or real game directory changed.
+

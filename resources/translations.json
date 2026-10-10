@@ -1,0 +1,1537 @@
+[
+  {
+    "tr": "Ağ bağlantısı başlatılamadı.",
+    "en": "Could not initialize the network connection.",
+    "zh-CN": "无法初始化网络连接。"
+  },
+  {
+    "tr": "Bağlantılı klasör veya dosya üzerinde işlem yapılmıyor. Gerçek konumu seçin.",
+    "en": "Linked files or folders are not supported. Select the original location.",
+    "zh-CN": "不支持链接文件或文件夹。请选择实际位置。"
+  },
+  {
+    "tr": "SHA-256 başlatılamadı.",
+    "en": "Could not initialize SHA-256.",
+    "zh-CN": "无法初始化 SHA-256。"
+  },
+  {
+    "tr": "SHA-256 oluşturulamadı.",
+    "en": "Could not create the SHA-256 hash.",
+    "zh-CN": "无法计算 SHA-256 哈希。"
+  },
+  {
+    "tr": "Dosya doğrulanamadı; dosya kullanımda veya okunamıyor.",
+    "en": "Cannot verify the file; it is in use or unreadable.",
+    "zh-CN": "无法验证文件；文件正在使用或无法读取。"
+  },
+  {
+    "tr": "Dosya oluşturulamadı. Yazma iznini veya mevcut kurulum kaydını kontrol edin.",
+    "en": "Could not create the file. Check write permissions and the existing installation record.",
+    "zh-CN": "无法创建文件。请检查写入权限和现有安装记录。"
+  },
+  {
+    "tr": "Dosya diske kaydedilemedi; işlem tamamlanmadı.",
+    "en": "Could not save the file to disk; the operation is incomplete.",
+    "zh-CN": "无法将文件保存到磁盘；操作未完成。"
+  },
+  {
+    "tr": "Windows veri klasörü bulunamadı.",
+    "en": "Could not find the Windows data folder.",
+    "zh-CN": "找不到 Windows 数据文件夹。"
+  },
+  {
+    "tr": "Program dosyası okunamadı.",
+    "en": "Could not read the executable file.",
+    "zh-CN": "无法读取可执行文件。"
+  },
+  {
+    "tr": "Program başlığı okunamadı.",
+    "en": "Could not read the executable header.",
+    "zh-CN": "无法读取可执行文件头。"
+  },
+  {
+    "tr": "Program verisi okunamadı.",
+    "en": "Could not read the executable data.",
+    "zh-CN": "无法读取可执行文件数据。"
+  },
+  {
+    "tr": "Geçerli Windows programı değil.",
+    "en": "Not a valid Windows executable.",
+    "zh-CN": "不是有效的 Windows 可执行文件。"
+  },
+  {
+    "tr": "64 bit Windows programı gerekli.",
+    "en": "A 64-bit Windows executable is required.",
+    "zh-CN": "需要 64 位 Windows 可执行文件。"
+  },
+  {
+    "tr": "Program başlığı eksik veya bozuk.",
+    "en": "The executable header is missing or corrupt.",
+    "zh-CN": "可执行文件头缺失或已损坏。"
+  },
+  {
+    "tr": "Programın DLL tablosu okunamadı.",
+    "en": "Could not read the executable's DLL table.",
+    "zh-CN": "无法读取可执行文件的 DLL 表。"
+  },
+  {
+    "tr": "Geçersiz DLL adı.",
+    "en": "Invalid DLL name.",
+    "zh-CN": "DLL 名称无效。"
+  },
+  {
+    "tr": "Kurulum kaydı doğrulanamadı. Hiçbir oyun dosyası değiştirilmedi.",
+    "en": "Could not verify the installation record. No game files were changed.",
+    "zh-CN": "无法验证安装记录。未更改任何游戏文件。"
+  },
+  {
+    "tr": "Oyunun gerçek EXE dosyasını seçin.",
+    "en": "Select the game's actual EXE file.",
+    "zh-CN": "请选择游戏的实际 EXE 文件。"
+  },
+  {
+    "tr": "Yalnızca 64 bit oyun EXE dosyaları destekleniyor.",
+    "en": "Only 64-bit game EXE files are supported.",
+    "zh-CN": "仅支持 64 位游戏 EXE 文件。"
+  },
+  {
+    "tr": "Önce oyunu tamamen kapatın, sonra yeniden deneyin.",
+    "en": "Close the game completely, then try again.",
+    "zh-CN": "请完全关闭游戏后重试。"
+  },
+  {
+    "tr": "Mod dosyası kullanımda veya silme izni yok. Oyunu kapatın.",
+    "en": "The mod file is in use or cannot be deleted. Close the game.",
+    "zh-CN": "模组文件正在使用或无删除权限。请关闭游戏。"
+  },
+  {
+    "tr": "Dosya bağlantısı tespit edildi. Otomatik kaldırma durduruldu.",
+    "en": "A file link was detected. Automatic removal stopped.",
+    "zh-CN": "检测到文件链接。已停止自动卸载。"
+  },
+  {
+    "tr": "Mod dosyası sonradan değişmiş. Başka bir dosyayı silmemek için kaldırma durduruldu.",
+    "en": "The mod file has changed. Removal stopped to avoid deleting another file.",
+    "zh-CN": "模组文件已被更改。为避免误删其他文件，已停止卸载。"
+  },
+  {
+    "tr": "Mod dosyası kaldırılamadı.",
+    "en": "Could not remove the mod file.",
+    "zh-CN": "无法删除模组文件。"
+  },
+  {
+    "tr": "Geçersiz indirme adresi.",
+    "en": "Invalid download address.",
+    "zh-CN": "下载地址无效。"
+  },
+  {
+    "tr": "İndirme başarısız. İnternet bağlantısını kontrol edin veya doğrulanmış RTXMFG.dll dosyasını içe aktarın.",
+    "en": "Download failed. Check your connection or import a verified RTXMFG.dll.",
+    "zh-CN": "下载失败。请检查网络连接，或导入已验证的 RTXMFG.dll。"
+  },
+  {
+    "tr": "Yayın sunucusu indirmeyi tamamlayamadı.",
+    "en": "The release server could not complete the download.",
+    "zh-CN": "发布服务器无法完成下载。"
+  },
+  {
+    "tr": "İndirme yarıda kaldı.",
+    "en": "The download was interrupted.",
+    "zh-CN": "下载已中断。"
+  },
+  {
+    "tr": "Yayın paketi beklenen boyutu aşıyor.",
+    "en": "The release package exceeds the expected size.",
+    "zh-CN": "发布包超出预期大小。"
+  },
+  {
+    "tr": "Dosya yolunda geçersiz karakter var.",
+    "en": "The file path contains an invalid character.",
+    "zh-CN": "文件路径包含无效字符。"
+  },
+  {
+    "tr": "Metin UTF-8 biçiminde okunamadı.",
+    "en": "Could not read the text as UTF-8.",
+    "zh-CN": "无法以 UTF-8 格式读取文本。"
+  },
+  {
+    "tr": "Dosya okunamadı: ",
+    "en": "Could not read file: ",
+    "zh-CN": "无法读取文件："
+  },
+  {
+    "tr": "Dosya beklenen boyutu aşıyor.",
+    "en": "The file exceeds the expected size.",
+    "zh-CN": "文件超出预期大小。"
+  },
+  {
+    "tr": "Dosya tamamen okunamadı.",
+    "en": "Could not read the entire file.",
+    "zh-CN": "无法完整读取文件。"
+  },
+  {
+    "tr": "Doğrulanacak dosya açılamadı.",
+    "en": "Could not open the file for verification.",
+    "zh-CN": "无法打开待验证文件。"
+  },
+  {
+    "tr": "Kayıt güncellenemedi. Dosya izinlerini kontrol edin.",
+    "en": "Could not update the record. Check file permissions.",
+    "zh-CN": "无法更新记录。请检查文件权限。"
+  },
+  {
+    "tr": "Bileşen indirilemedi. Bağlantıyı kontrol edip yeniden deneyin.",
+    "en": "Could not download the component. Check your connection and try again.",
+    "zh-CN": "无法下载组件。请检查网络连接后重试。"
+  },
+  {
+    "tr": "Bileşen sunucusu indirmeyi tamamlayamadı.",
+    "en": "The component server could not complete the download.",
+    "zh-CN": "组件服务器无法完成下载。"
+  },
+  {
+    "tr": "İndirme dosyası oluşturulamadı.",
+    "en": "Could not create the download file.",
+    "zh-CN": "无法创建下载文件。"
+  },
+  {
+    "tr": "İndirme yarıda kaldı; yeniden deneyebilirsiniz.",
+    "en": "Download interrupted; you can try again.",
+    "zh-CN": "下载已中断；可以重试。"
+  },
+  {
+    "tr": "Bileşen beklenen boyutu aşıyor.",
+    "en": "The component exceeds the expected size.",
+    "zh-CN": "组件超出预期大小。"
+  },
+  {
+    "tr": "İndirme diske yazılamadı.",
+    "en": "Could not write the download to disk.",
+    "zh-CN": "无法将下载内容写入磁盘。"
+  },
+  {
+    "tr": "Bileşen indiriliyor: ",
+    "en": "Downloading component: ",
+    "zh-CN": "正在下载组件："
+  },
+  {
+    "tr": "İndirme kaydedilemedi.",
+    "en": "Could not save the download.",
+    "zh-CN": "无法保存下载内容。"
+  },
+  {
+    "tr": "Bileşenin SHA-256 doğrulaması başarısız. Dosya kullanılmadı.",
+    "en": "Component SHA-256 verification failed. The file was not used.",
+    "zh-CN": "组件 SHA-256 验证失败。未使用该文件。"
+  },
+  {
+    "tr": "Bileşen önbelleğe kaydedilemedi.",
+    "en": "Could not save the component to the cache.",
+    "zh-CN": "无法将组件保存到缓存。"
+  },
+  {
+    "tr": "Geçersiz arşiv dosyası.",
+    "en": "Invalid archive file.",
+    "zh-CN": "压缩包文件无效。"
+  },
+  {
+    "tr": "Windows arşiv aracı başlatılamadı.",
+    "en": "Could not start the Windows archive tool.",
+    "zh-CN": "无法启动 Windows 解压工具。"
+  },
+  {
+    "tr": "Arşiv açma süresi doldu.",
+    "en": "Archive extraction timed out.",
+    "zh-CN": "解压超时。"
+  },
+  {
+    "tr": "Bileşen arşivden çıkarılamadı.",
+    "en": "Could not extract the component.",
+    "zh-CN": "无法解压组件。"
+  },
+  {
+    "tr": "Steam kayıt biçimi desteklenmiyor.",
+    "en": "Unsupported Steam record format.",
+    "zh-CN": "不支持的 Steam 记录格式。"
+  },
+  {
+    "tr": "Steam kaydı yarım kalmış.",
+    "en": "The Steam record is incomplete.",
+    "zh-CN": "Steam 记录不完整。"
+  },
+  {
+    "tr": "Steam kaydı çok derin.",
+    "en": "The Steam record is nested too deeply.",
+    "zh-CN": "Steam 记录的嵌套层数过多。"
+  },
+  {
+    "tr": "Steam kaydı eksik.",
+    "en": "The Steam record is missing data.",
+    "zh-CN": "Steam 记录缺少数据。"
+  },
+  {
+    "tr": "Steam kaydı bozuk.",
+    "en": "The Steam record is corrupt.",
+    "zh-CN": "Steam 记录已损坏。"
+  },
+  {
+    "tr": "Steam kaydında anahtar eksik.",
+    "en": "A key is missing from the Steam record.",
+    "zh-CN": "Steam 记录中缺少键。"
+  },
+  {
+    "tr": "Steam kaydında değer eksik.",
+    "en": "A value is missing from the Steam record.",
+    "zh-CN": "Steam 记录中缺少值。"
+  },
+  {
+    "tr": "Steam kaydı: ",
+    "en": "Steam record: ",
+    "zh-CN": "Steam 记录："
+  },
+  {
+    "tr": "Epic kaydı: ",
+    "en": "Epic record: ",
+    "zh-CN": "Epic 记录："
+  },
+  {
+    "tr": "Çalışan oyunlar kontrol edilemedi.",
+    "en": "Could not check running games.",
+    "zh-CN": "无法检查正在运行的游戏。"
+  },
+  {
+    "tr": "Gerçek oyun EXE dosyasını seçin.",
+    "en": "Select the actual game EXE file.",
+    "zh-CN": "请选择实际的游戏 EXE 文件。"
+  },
+  {
+    "tr": "Kurulu · ",
+    "en": "Installed · ",
+    "zh-CN": "已安装 · "
+  },
+  {
+    "tr": "Kurulu dosya değişmiş. Otomatik işlem durduruldu.",
+    "en": "The installed file has changed. Automatic operations stopped.",
+    "zh-CN": "已安装文件被更改。已停止自动操作。"
+  },
+  {
+    "tr": "Eksik / yarım kurulum kaydı. Kaldır ile temizleyebilirsiniz.",
+    "en": "Incomplete installation record. Use Remove to recover.",
+    "zh-CN": "安装记录不完整。请使用“卸载”恢复。"
+  },
+  {
+    "tr": "RTX 20/30 MFG kurulu; önce kendi Kaldır düğmesiyle geri alın.",
+    "en": "RTX 20/30 MFG is installed; remove it using its Remove button first.",
+    "zh-CN": "已安装 RTX 20/30 MFG；请先使用其“卸载”按钮恢复。"
+  },
+  {
+    "tr": "Oyun dosyası taşınmış veya kaldırılmış.",
+    "en": "The game executable was moved or removed.",
+    "zh-CN": "游戏可执行文件已移动或删除。"
+  },
+  {
+    "tr": "64 bit oyun EXE dosyası gerekli.",
+    "en": "A 64-bit game EXE file is required.",
+    "zh-CN": "需要 64 位游戏 EXE 文件。"
+  },
+  {
+    "tr": "Önce mevcut RTXMFG kurulumunu kaldırın.",
+    "en": "Remove the existing RTXMFG installation first.",
+    "zh-CN": "请先卸载现有的 RTXMFG。"
+  },
+  {
+    "tr": "Elle kurulmuş RTXMFG bulundu. Dosyaya dokunulmadı.",
+    "en": "A manual RTXMFG installation was found. The file was left unchanged.",
+    "zh-CN": "发现手动安装的 RTXMFG。未更改该文件。"
+  },
+  {
+    "tr": "DLSS Frame Generation bileşeni bulunamadı. Otomatik kurulum kapalı.",
+    "en": "DLSS Frame Generation was not found. Automatic installation is disabled.",
+    "zh-CN": "未找到 DLSS 帧生成组件。已禁用自动安装。"
+  },
+  {
+    "tr": "Boş ve uygun bir yükleme yolu bulunamadı. Oyun profili gerekiyor.",
+    "en": "No available compatible loading path. A game profile is needed.",
+    "zh-CN": "没有可用的兼容加载路径。需要游戏配置。"
+  },
+  {
+    "tr": "Kurulabilir · oyun içi uyumluluk henüz doğrulanmadı",
+    "en": "Ready to install · in-game compatibility not verified",
+    "zh-CN": "可安装 · 尚未验证游戏内兼容性"
+  },
+  {
+    "tr": "Ekran kartı okunamadı",
+    "en": "Could not read the graphics card",
+    "zh-CN": "无法读取显卡信息"
+  },
+  {
+    "tr": "Ekran kartı bulunamadı",
+    "en": "No graphics card found",
+    "zh-CN": "未找到显卡"
+  },
+  {
+    "tr": "Bilinmeyen mod sürümü. Desteklenen sürümlerden birini seçin.",
+    "en": "Unknown mod version. Select a supported release.",
+    "zh-CN": "未知模组版本。请选择支持的版本。"
+  },
+  {
+    "tr": "Bilinmeyen mod sürümü.",
+    "en": "Unknown mod version.",
+    "zh-CN": "未知模组版本。"
+  },
+  {
+    "tr": "DLL seçili sürümle eşleşmiyor. ",
+    "en": "The DLL does not match. Required release: ",
+    "zh-CN": "DLL 版本不匹配。所需版本："
+  },
+  {
+    "tr": " paketindeki RTXMFG.dll gerekli.",
+    "en": " (RTXMFG.dll).",
+    "zh-CN": "（RTXMFG.dll）。"
+  },
+  {
+    "tr": "Paket önbelleğe kopyalanamadı.",
+    "en": "Could not copy the package to the cache.",
+    "zh-CN": "无法将安装包复制到缓存。"
+  },
+  {
+    "tr": "Kopyalanan paket doğrulanamadı.",
+    "en": "Could not verify the copied package.",
+    "zh-CN": "无法验证已复制的安装包。"
+  },
+  {
+    "tr": "Paket kaydedilemedi.",
+    "en": "Could not save the package.",
+    "zh-CN": "无法保存安装包。"
+  },
+  {
+    "tr": "Doğrulanmış mod paketi hazır.",
+    "en": "The verified mod package is ready.",
+    "zh-CN": "已验证的模组包已就绪。"
+  },
+  {
+    "tr": "Resmi RTXMFG paketi indiriliyor…",
+    "en": "Downloading the upstream RTXMFG package…",
+    "zh-CN": "正在下载上游 RTXMFG 安装包…"
+  },
+  {
+    "tr": "İndirme klasörü oluşturulamadı.",
+    "en": "Could not create the download folder.",
+    "zh-CN": "无法创建下载文件夹。"
+  },
+  {
+    "tr": "İndirilen paketin SHA-256 doğrulaması başarısız. Paket kullanılmadı.",
+    "en": "Package SHA-256 verification failed. The package was not used.",
+    "zh-CN": "安装包 SHA-256 验证失败。未使用该安装包。"
+  },
+  {
+    "tr": "Paket doğrulandı; mod dosyası hazırlanıyor…",
+    "en": "Package verified; preparing the mod file…",
+    "zh-CN": "安装包已验证；正在准备模组文件…"
+  },
+  {
+    "tr": "Windows arşiv aracı bulunamadı. DLL içe aktarma seçeneğini kullanın.",
+    "en": "Windows archive tool not found. Use Import DLL.",
+    "zh-CN": "未找到 Windows 解压工具。请使用“导入 DLL”。"
+  },
+  {
+    "tr": "Paket açılamadı.",
+    "en": "Could not open the package.",
+    "zh-CN": "无法打开安装包。"
+  },
+  {
+    "tr": "Paket açma işlemi zaman aşımına uğradı.",
+    "en": "Package extraction timed out.",
+    "zh-CN": "安装包解压超时。"
+  },
+  {
+    "tr": "Arşivden RTXMFG.dll çıkarılamadı.",
+    "en": "Could not extract RTXMFG.dll from the archive.",
+    "zh-CN": "无法从压缩包中提取 RTXMFG.dll。"
+  },
+  {
+    "tr": " hazır. SHA-256 doğrulandı.",
+    "en": " is ready. SHA-256 verified.",
+    "zh-CN": " 已就绪。SHA-256 已验证。"
+  },
+  {
+    "tr": "Önce mod paketini hazırlayın.",
+    "en": "Prepare the mod package first.",
+    "zh-CN": "请先准备模组安装包。"
+  },
+  {
+    "tr": "Bu oyunda mod zaten kurulu. Sürüm değiştirmek için önce Kaldır, ardından Kur seçin.",
+    "en": "A mod is already installed. To change versions, remove it first, then install.",
+    "zh-CN": "已安装模组。如需更换版本，请先卸载再安装。"
+  },
+  {
+    "tr": "Kurulum tamamlanamadı. Dosya çakışması veya yazma izni sorunu var.",
+    "en": "Installation failed. There is a file conflict or write permission issue.",
+    "zh-CN": "安装失败。存在文件冲突或写入权限问题。"
+  },
+  {
+    "tr": "Kopya doğrulanamadı. Kurulum kaydı korundu; dosyayı kontrol edin.",
+    "en": "Copy verification failed. The installation record was kept; check the file.",
+    "zh-CN": "副本验证失败。已保留安装记录；请检查文件。"
+  },
+  {
+    "tr": "Kayıtlı oyun konumu yok.",
+    "en": "No game location is recorded.",
+    "zh-CN": "未记录游戏位置。"
+  },
+  {
+    "tr": "Önce oyunu tamamen kapatın.",
+    "en": "Close the game completely first.",
+    "zh-CN": "请先完全关闭游戏。"
+  },
+  {
+    "tr": "Mod kaldırıldı ancak kurulum kaydı temizlenemedi.",
+    "en": "The mod was removed, but its installation record could not be cleared.",
+    "zh-CN": "模组已卸载，但无法清除安装记录。"
+  },
+  {
+    "tr": "NVIDIA sürücüsü gerekli profil işlevini desteklemiyor.",
+    "en": "The NVIDIA driver does not support the required profile function.",
+    "zh-CN": "NVIDIA 驱动不支持所需的配置功能。"
+  },
+  {
+    "tr": "NVIDIA ayarı için uygulamayı yönetici olarak açıp yeniden deneyin.",
+    "en": "Run the application as administrator to change the NVIDIA setting, then retry.",
+    "zh-CN": "请以管理员身份运行应用后重试，以更改 NVIDIA 设置。"
+  },
+  {
+    "tr": "Bu oyun için NVIDIA profili bulunamadı. Genel profil değiştirilmedi.",
+    "en": "No NVIDIA profile found for this game. The global profile was not changed.",
+    "zh-CN": "未找到此游戏的 NVIDIA 配置。未更改全局配置。"
+  },
+  {
+    "tr": "NVIDIA profil işlemi tamamlanamadı: ",
+    "en": "The NVIDIA profile operation failed: ",
+    "zh-CN": "NVIDIA 配置操作失败："
+  },
+  {
+    "tr": "Oyun yolu NVIDIA profil sınırını aşıyor.",
+    "en": "The game path exceeds the NVIDIA profile limit.",
+    "zh-CN": "游戏路径超出 NVIDIA 配置的长度限制。"
+  },
+  {
+    "tr": "Önce oyunun gerçek EXE dosyasını seçin.",
+    "en": "Select the game's actual EXE file first.",
+    "zh-CN": "请先选择游戏的实际 EXE 文件。"
+  },
+  {
+    "tr": "NVIDIA sürücü arayüzü bulunamadı.",
+    "en": "The NVIDIA driver interface was not found.",
+    "zh-CN": "未找到 NVIDIA 驱动接口。"
+  },
+  {
+    "tr": "NVIDIA profil arayüzü kullanılamıyor.",
+    "en": "The NVIDIA profile interface is unavailable.",
+    "zh-CN": "NVIDIA 配置接口不可用。"
+  },
+  {
+    "tr": "NVIDIA profili çok sayıda uygulamaya bağlı; otomatik değişiklik kapalı.",
+    "en": "The NVIDIA profile is shared by too many applications; automatic changes are disabled.",
+    "zh-CN": "此 NVIDIA 配置关联了过多应用；已禁用自动更改。"
+  },
+  {
+    "tr": "NVIDIA profil uygulamaları okunamadı.",
+    "en": "Could not read applications in the NVIDIA profile.",
+    "zh-CN": "无法读取 NVIDIA 配置中的应用。"
+  },
+  {
+    "tr": "NVIDIA ayar türü beklenenden farklı; işlem durduruldu.",
+    "en": "Unexpected NVIDIA setting type; the operation stopped.",
+    "zh-CN": "NVIDIA 设置类型不符合预期；操作已停止。"
+  },
+  {
+    "tr": "İzin verilmeyen NVIDIA ayarı.",
+    "en": "This NVIDIA setting is not allowed.",
+    "zh-CN": "不允许修改此 NVIDIA 设置。"
+  },
+  {
+    "tr": "Genel NVIDIA profili değiştirilemez.",
+    "en": "The global NVIDIA profile cannot be changed.",
+    "zh-CN": "不能更改 NVIDIA 全局配置。"
+  },
+  {
+    "tr": "Önce RTX 20, 30, 40 veya 50 serisini seçin.",
+    "en": "Select RTX 20, 30, 40 or 50 series first.",
+    "zh-CN": "请先选择 RTX 20、30、40 或 50 系列。"
+  },
+  {
+    "tr": " serisi",
+    "en": " series",
+    "zh-CN": " 系列"
+  },
+  {
+    "tr": "Ekran kartı serisini seçin",
+    "en": "Select your GPU series",
+    "zh-CN": "请选择显卡系列"
+  },
+  {
+    "tr": "Seçilen seri bu bilgisayarda algılanmadı. Paket indirilebilir; oyuna kurmak için bilgisayarınızdaki ekran kartı serisini seçin.",
+    "en": "The selected series was not detected on this PC. You may download the package, but select this PC's GPU series to install.",
+    "zh-CN": "此电脑未检测到所选系列。可以下载安装包，但安装时需选择本机显卡系列。"
+  },
+  {
+    "tr": " — 310.8.SF-v2 (topluluk / FP16). FPS belirgin düşebilir; oyun içi uyumluluk değişir.",
+    "en": " — 310.8.SF-v2 (community / FP16). FPS may drop significantly; compatibility varies by game.",
+    "zh-CN": " — 310.8.SF-v2（社区版 / FP16）。帧率可能明显下降，兼容性因游戏而异。"
+  },
+  {
+    "tr": "RTX 40 — 310.8.0-RTX40 topluluk paketi.",
+    "en": "RTX 40 — 310.8.0-RTX40 community package.",
+    "zh-CN": "RTX 40 — 310.8.0-RTX40 社区安装包。"
+  },
+  {
+    "tr": "RTX 50 — 310.8.0 paketi.",
+    "en": "RTX 50 — 310.8.0 package.",
+    "zh-CN": "RTX 50 — 310.8.0 安装包。"
+  },
+  {
+    "tr": "Paket indirmek için ekran kartı serisini seçin. Desteklenmeyen kartlara kurulum yapılmaz.",
+    "en": "Select a GPU series to download. Installation is blocked on unsupported cards.",
+    "zh-CN": "请选择显卡系列以下载。不支持的显卡无法安装。"
+  },
+  {
+    "tr": "Ayarlar yedekleniyor, uygulanıyor ve doğrulanıyor…",
+    "en": "Backing up, applying and verifying settings…",
+    "zh-CN": "正在备份、应用并验证设置…"
+  },
+  {
+    "tr": "NVIDIA oyun profili okunuyor…",
+    "en": "Reading the NVIDIA game profile…",
+    "zh-CN": "正在读取 NVIDIA 游戏配置…"
+  },
+  {
+    "tr": "Önceki NVIDIA ayarları geri alındı. Oyunu yeniden açabilirsiniz.",
+    "en": "Previous NVIDIA settings restored. You can restart the game.",
+    "zh-CN": "已恢复之前的 NVIDIA 设置。可以重新启动游戏。"
+  },
+  {
+    "tr": " — 3x / 4x görüntü sorunu",
+    "en": " — 3x / 4x image issues",
+    "zh-CN": " — 3x / 4x 画面问题"
+  },
+  {
+    "tr": "NVIDIA profili okunamadı",
+    "en": "Could not read the NVIDIA profile",
+    "zh-CN": "无法读取 NVIDIA 配置"
+  },
+  {
+    "tr": "NVIDIA oyun profili: ",
+    "en": "NVIDIA game profile: ",
+    "zh-CN": "NVIDIA 游戏配置："
+  },
+  {
+    "tr": "RTX 50, MFG'yi destekleyen oyunlarda doğrudan kullanır. Kilit açma modu gerekmez.",
+    "en": "RTX 50 supports MFG directly in compatible games. No unlock mod is needed.",
+    "zh-CN": "RTX 50 可在兼容游戏中直接使用 MFG，无需解锁模组。"
+  },
+  {
+    "tr": "Önce ekran kartı serisini seçin.",
+    "en": "Select a GPU series first.",
+    "zh-CN": "请先选择显卡系列。"
+  },
+  {
+    "tr": "Yerel MFG — mod gerekmez",
+    "en": "Native MFG — no mod needed",
+    "zh-CN": "原生 MFG — 无需模组"
+  },
+  {
+    "tr": "Önce seri seçin",
+    "en": "Select a series first",
+    "zh-CN": "请先选择系列"
+  },
+  {
+    "tr": "Oyun kütüphaneniz hazırlanıyor…",
+    "en": "Preparing your game library…",
+    "zh-CN": "正在准备游戏库…"
+  },
+  {
+    "tr": "Mod gerekmiyor",
+    "en": "No mod needed",
+    "zh-CN": "无需模组"
+  },
+  {
+    "tr": "MFG paketi hazır ✓",
+    "en": "MFG package ready ✓",
+    "zh-CN": "MFG 安装包已就绪 ✓"
+  },
+  {
+    "tr": "MFG paketini indir",
+    "en": "Download MFG",
+    "zh-CN": "下载 MFG"
+  },
+  {
+    "tr": "EXE seçin",
+    "en": "Select EXE",
+    "zh-CN": "选择 EXE"
+  },
+  {
+    "tr": "Kontrol gerekli",
+    "en": "Check required",
+    "zh-CN": "需要检查"
+  },
+  {
+    "tr": "Eksik kurulum",
+    "en": "Incomplete install",
+    "zh-CN": "安装未完成"
+  },
+  {
+    "tr": "FG bulunamadı",
+    "en": "FG not found",
+    "zh-CN": "未找到帧生成"
+  },
+  {
+    "tr": "Profil gerekli",
+    "en": "Profile needed",
+    "zh-CN": "需要游戏配置"
+  },
+  {
+    "tr": "İşlem tamamlanamadı.",
+    "en": "The operation could not be completed.",
+    "zh-CN": "无法完成操作。"
+  },
+  {
+    "tr": "Steam ve Epic Games kütüphaneleri taranıyor…",
+    "en": "Scanning Steam and Epic Games libraries…",
+    "zh-CN": "正在扫描 Steam 和 Epic Games 游戏库…"
+  },
+  {
+    "tr": " oyun listelendi. Kurmak için bir oyun seçin.",
+    "en": " games listed. Select a game to install.",
+    "zh-CN": " 款游戏。请选择要安装的游戏。"
+  },
+  {
+    "tr": " kayıt okunamadı; ayrıntılar tarama kaydında.",
+    "en": " records could not be read; see the scan log for details.",
+    "zh-CN": " 条记录无法读取；详情请查看扫描日志。"
+  },
+  {
+    "tr": "Oyun programı",
+    "en": "Game executable",
+    "zh-CN": "游戏可执行文件"
+  },
+  {
+    "tr": "Resmi ",
+    "en": "Select the upstream ",
+    "zh-CN": "请选择上游 "
+  },
+  {
+    "tr": " RTXMFG.dll dosyasını seçin",
+    "en": " RTXMFG.dll file",
+    "zh-CN": " 的 RTXMFG.dll 文件"
+  },
+  {
+    "tr": "Oyunun gerçek EXE dosyasını seçin",
+    "en": "Select the game's actual EXE file",
+    "zh-CN": "请选择游戏的实际 EXE 文件"
+  },
+  {
+    "tr": ": MFG 0.3.5 / DLSS 5 SF-v2. DLSS 5 için sağdaki ayrı düğmeyi kullanın.",
+    "en": ": MFG 0.3.5 / DLSS 5 SF-v2. Use the separate DLSS 5 button on the right.",
+    "zh-CN": "：MFG 0.3.5 / DLSS 5 SF-v2。DLSS 5 请使用右侧的独立按钮。"
+  },
+  {
+    "tr": "RTX 50: MFG için oyun ayarlarını kullanın. DLSS 5 paketi ayrı pencerede.",
+    "en": "RTX 50: use in-game MFG settings. DLSS 5 has a separate package window.",
+    "zh-CN": "RTX 50：请使用游戏内 MFG 设置。DLSS 5 安装包在独立窗口中管理。"
+  },
+  {
+    "tr": "RTX 40 paketi seçildi. Çalışan mevcut sürüm tercihiniz korundu.",
+    "en": "RTX 40 selected. Your existing mod version preference was kept.",
+    "zh-CN": "已选择 RTX 40。已保留原有模组版本选择。"
+  },
+  {
+    "tr": " Bu seri bilgisayarda bulunamadı: indirme açık, kurulum kapalı.",
+    "en": " This series is absent on this PC: download allowed, installation blocked.",
+    "zh-CN": " 此电脑未检测到该系列：可下载，但不可安装。"
+  },
+  {
+    "tr": "Seçilen mod paketi kontrol ediliyor…",
+    "en": "Checking the selected mod package…",
+    "zh-CN": "正在检查所选模组包…"
+  },
+  {
+    "tr": "Seçili paket: ",
+    "en": "Selected package: ",
+    "zh-CN": "所选安装包："
+  },
+  {
+    "tr": ". Oyunda sürüm değiştirmek için önce Kaldır, ardından Kur seçin.",
+    "en": ". To change the in-game version, remove it first, then install.",
+    "zh-CN": "。如需更换游戏中的版本，请先卸载再安装。"
+  },
+  {
+    "tr": "Mod paketi kontrol ediliyor…",
+    "en": "Checking the mod package…",
+    "zh-CN": "正在检查模组包…"
+  },
+  {
+    "tr": " MFG paketi hazır. Tüm dosyalar doğrulandı.",
+    "en": " MFG package is ready. All files verified.",
+    "zh-CN": " MFG 安装包已就绪。所有文件均已验证。"
+  },
+  {
+    "tr": " Bu bilgisayara kurmak için algılanan seriyi seçin.",
+    "en": " Select the detected GPU series to install on this PC.",
+    "zh-CN": " 如需安装到本机，请选择检测到的显卡系列。"
+  },
+  {
+    "tr": "Mod paketi doğrulandı ve kaydedildi.",
+    "en": "The mod package was verified and saved.",
+    "zh-CN": "模组包已验证并保存。"
+  },
+  {
+    "tr": "64 bit bir oyun EXE dosyası seçin.",
+    "en": "Select a 64-bit game EXE file.",
+    "zh-CN": "请选择 64 位游戏 EXE 文件。"
+  },
+  {
+    "tr": "Oyun eklenemedi",
+    "en": "Could not add game",
+    "zh-CN": "无法添加游戏"
+  },
+  {
+    "tr": "Elle eklendi",
+    "en": "Manual",
+    "zh-CN": "手动添加"
+  },
+  {
+    "tr": "Oyun konumu kaydedildi. Kurulum uygunluğu kontrol edildi.",
+    "en": "Game location saved. Installation requirements checked.",
+    "zh-CN": "已保存游戏位置，并检查安装条件。"
+  },
+  {
+    "tr": "MFG ve DLSS 5 ayrı ayrı yönetilir. DLSS 5 durumu kendi penceresinde gösterilir.",
+    "en": "MFG and DLSS 5 are managed separately. DLSS 5 status appears in its own window.",
+    "zh-CN": "MFG 与 DLSS 5 独立管理。DLSS 5 状态显示在其专用窗口中。"
+  },
+  {
+    "tr": " için mod kuruluyor…",
+    "en": ": installing mod…",
+    "zh-CN": "：正在安装模组…"
+  },
+  {
+    "tr": ": MFG 0.3.5 kuruldu. Oyunun DLSS Frame Generation ayarından 2x / 3x / 4x seçin.",
+    "en": ": MFG 0.3.5 installed. Select 2x / 3x / 4x in the game's DLSS Frame Generation settings.",
+    "zh-CN": "：已安装 MFG 0.3.5。请在游戏的 DLSS 帧生成设置中选择 2x / 3x / 4x。"
+  },
+  {
+    "tr": " kuruldu. Mod menüsü: Backspace.",
+    "en": " installed. Mod menu: Backspace.",
+    "zh-CN": " 已安装。模组菜单：Backspace。"
+  },
+  {
+    "tr": "Bu seri için MFG kilit açma paketi yok.",
+    "en": "No MFG unlock package is available for this series.",
+    "zh-CN": "该系列没有可用的 MFG 解锁包。"
+  },
+  {
+    "tr": " için mod kaldırılıyor…",
+    "en": ": removing mod…",
+    "zh-CN": "：正在卸载模组…"
+  },
+  {
+    "tr": ": mod kaldırıldı. Oyun ve mod ayarları korundu.",
+    "en": ": mod removed. Game files and mod settings were preserved.",
+    "zh-CN": "：模组已卸载。已保留游戏文件和模组设置。"
+  },
+  {
+    "tr": "Oyunlarını bul. Modunu kur. İstediğinde geri al.",
+    "en": "Find your games. Install a mod. Restore at any time.",
+    "zh-CN": "查找游戏，安装模组，随时恢复。"
+  },
+  {
+    "tr": "EKRAN KARTI",
+    "en": "GRAPHICS CARD",
+    "zh-CN": "显卡"
+  },
+  {
+    "tr": "MFG PAKETİ",
+    "en": "MFG PACKAGE",
+    "zh-CN": "MFG 安装包"
+  },
+  {
+    "tr": "OYUN KÜTÜPHANESİ",
+    "en": "GAME LIBRARY",
+    "zh-CN": "游戏库"
+  },
+  {
+    "tr": " oyun",
+    "en": " games",
+    "zh-CN": " 款游戏"
+  },
+  {
+    "tr": "OYUN DOSYASI",
+    "en": "GAME EXECUTABLE",
+    "zh-CN": "游戏可执行文件"
+  },
+  {
+    "tr": "EXE seçimi gerekiyor",
+    "en": "Select an EXE file",
+    "zh-CN": "请选择 EXE 文件"
+  },
+  {
+    "tr": "\nDeğiştirmek için: Kaldır → Kur",
+    "en": "\nTo change: Remove → Install",
+    "zh-CN": "\n更换版本：卸载 → 安装"
+  },
+  {
+    "tr": "Kurulum dosyası: ",
+    "en": "Install file: ",
+    "zh-CN": "安装文件："
+  },
+  {
+    "tr": "Bir oyun seçin",
+    "en": "Select a game",
+    "zh-CN": "请选择游戏"
+  },
+  {
+    "tr": "Steam ve Epic oyunlarınızı tarayın veya bir oyunu EXE dosyasından ekleyin.",
+    "en": "Scan your Steam and Epic games, or add a game using its EXE file.",
+    "zh-CN": "扫描 Steam 和 Epic 游戏，或通过 EXE 文件添加游戏。"
+  },
+  {
+    "tr": "Henüz oyun yok\n\nOyunları tara veya Oyun ekle ile başlayın.",
+    "en": "No games yet\n\nStart with Scan games or Add game.",
+    "zh-CN": "暂无游戏\n\n请先扫描游戏或添加游戏。"
+  },
+  {
+    "tr": "* Kurulabilir durumu dosya kontrolüdür; oyun içi MFG desteği garanti edilmez.",
+    "en": "* Ready to install checks files only; in-game MFG compatibility is not guaranteed.",
+    "zh-CN": "*“可安装”仅表示文件检查通过，不保证游戏内 MFG 兼容性。"
+  },
+  {
+    "tr": "Oyunları tara",
+    "en": "Scan games",
+    "zh-CN": "扫描游戏"
+  },
+  {
+    "tr": "+  Oyun ekle",
+    "en": "+  Add game",
+    "zh-CN": "+  添加游戏"
+  },
+  {
+    "tr": "Mod sürümü",
+    "en": "Mod version",
+    "zh-CN": "模组版本"
+  },
+  {
+    "tr": "Ekran kartı serisi",
+    "en": "GPU series",
+    "zh-CN": "显卡系列"
+  },
+  {
+    "tr": "Mod paketini indir",
+    "en": "Download mod",
+    "zh-CN": "下载模组"
+  },
+  {
+    "tr": "DLL içe aktar",
+    "en": "Import DLL",
+    "zh-CN": "导入 DLL"
+  },
+  {
+    "tr": "MFG kur",
+    "en": "Install MFG",
+    "zh-CN": "安装 MFG"
+  },
+  {
+    "tr": "MFG kaldır",
+    "en": "Remove MFG",
+    "zh-CN": "卸载 MFG"
+  },
+  {
+    "tr": "DLSS 5 kur / kaldır…",
+    "en": "DLSS 5: install / remove…",
+    "zh-CN": "DLSS 5：安装 / 卸载…"
+  },
+  {
+    "tr": "EXE seç",
+    "en": "Select EXE",
+    "zh-CN": "选择 EXE"
+  },
+  {
+    "tr": "Klasörü aç",
+    "en": "Open folder",
+    "zh-CN": "打开文件夹"
+  },
+  {
+    "tr": "Modun yayın sayfası ↗",
+    "en": "Mod release page ↗",
+    "zh-CN": "模组发布页面 ↗"
+  },
+  {
+    "tr": "3x / 4x görüntü sorunu…",
+    "en": "3x / 4x image issues…",
+    "zh-CN": "3x / 4x 画面问题…"
+  },
+  {
+    "tr": "MFG durumu",
+    "en": "MFG status",
+    "zh-CN": "MFG 状态"
+  },
+  {
+    "tr": "İşlem sürüyor. Tamamlandığında pencereyi kapatabilirsiniz.",
+    "en": "An operation is running. You can close the window when it finishes.",
+    "zh-CN": "操作正在进行。完成后可以关闭窗口。"
+  },
+  {
+    "tr": "GPU paketi 20, 30, 40 veya 50 olmalı.",
+    "en": "GPU package must be 20, 30, 40 or 50.",
+    "zh-CN": "显卡安装包必须为 20、30、40 或 50。"
+  },
+  {
+    "tr": "Tanı",
+    "en": "Diagnostics",
+    "zh-CN": "诊断"
+  },
+  {
+    "tr": "Uygulama penceresi oluşturulamadı.",
+    "en": "Could not create the application window.",
+    "zh-CN": "无法创建应用窗口。"
+  },
+  {
+    "tr": "DLSS 5 kaydında geçersiz dosya yolu.",
+    "en": "Invalid file path in the DLSS 5 record.",
+    "zh-CN": "DLSS 5 记录中的文件路径无效。"
+  },
+  {
+    "tr": "DLSS 5 dosyası oyun klasörü dışına çıkamaz.",
+    "en": "DLSS 5 files must stay inside the game folder.",
+    "zh-CN": "DLSS 5 文件不得超出游戏文件夹。"
+  },
+  {
+    "tr": "DLSS 5 kurulumu için 64 bit oyun EXE dosyası gerekli.",
+    "en": "DLSS 5 requires a 64-bit game EXE file.",
+    "zh-CN": "安装 DLSS 5 需要 64 位游戏 EXE 文件。"
+  },
+  {
+    "tr": "Dosya kopyalanamadı; yazma iznini ve boş disk alanını kontrol edin.",
+    "en": "Could not copy the file; check write permissions and free disk space.",
+    "zh-CN": "无法复制文件；请检查写入权限和剩余磁盘空间。"
+  },
+  {
+    "tr": "Kopyalanan dosya doğrulanamadı.",
+    "en": "Could not verify the copied file.",
+    "zh-CN": "无法验证已复制的文件。"
+  },
+  {
+    "tr": "Dosya diske kaydedilemedi.",
+    "en": "Could not save the file to disk.",
+    "zh-CN": "无法将文件保存到磁盘。"
+  },
+  {
+    "tr": "Dosya kullanımda veya yazma izni yok. İşlemi yeniden deneyin.",
+    "en": "The file is in use or write access is denied. Try again.",
+    "zh-CN": "文件正在使用或无写入权限。请重试。"
+  },
+  {
+    "tr": "Ayar dosyası oluşturulamadı.",
+    "en": "Could not create the settings file.",
+    "zh-CN": "无法创建设置文件。"
+  },
+  {
+    "tr": "Ayar dosyası kaydedilemedi.",
+    "en": "Could not save the settings file.",
+    "zh-CN": "无法保存设置文件。"
+  },
+  {
+    "tr": "DLSS 5 kurulum kaydı bu oyuna ait değil.",
+    "en": "This DLSS 5 installation record belongs to another game.",
+    "zh-CN": "此 DLSS 5 安装记录属于另一款游戏。"
+  },
+  {
+    "tr": "DLSS 5 kurulum kaydı geçersiz.",
+    "en": "Invalid DLSS 5 installation record.",
+    "zh-CN": "DLSS 5 安装记录无效。"
+  },
+  {
+    "tr": "DLSS 5 dosya listesi geçersiz.",
+    "en": "Invalid DLSS 5 file list.",
+    "zh-CN": "DLSS 5 文件列表无效。"
+  },
+  {
+    "tr": "DLSS 5 dosya kaydı geçersiz.",
+    "en": "Invalid DLSS 5 file record.",
+    "zh-CN": "DLSS 5 文件记录无效。"
+  },
+  {
+    "tr": "DLSS 5 yedek kaydı geçersiz.",
+    "en": "Invalid DLSS 5 backup record.",
+    "zh-CN": "DLSS 5 备份记录无效。"
+  },
+  {
+    "tr": "ReShade ayarı UTF-16 biçiminde. Mevcut ayar korunarak otomatik işlem durduruldu.",
+    "en": "ReShade settings use UTF-16. Automatic changes stopped to preserve the existing settings.",
+    "zh-CN": "ReShade 设置使用 UTF-16 格式。为保留现有设置，已停止自动更改。"
+  },
+  {
+    "tr": "Önce mevcut Bileşen kurulumunu Kaldır / Geri al ile temizleyin.",
+    "en": "Remove / Restore the existing component installation first.",
+    "zh-CN": "请先使用“卸载 / 恢复”清理现有组件安装。"
+  },
+  {
+    "tr": "Bileşen kaynak dosyası doğrulanamadı.",
+    "en": "Could not verify the component source file.",
+    "zh-CN": "无法验证组件源文件。"
+  },
+  {
+    "tr": "Bileşenler zaten mevcut; bu uygulama tarafından kurulmadıkları için sahiplenilmedi.",
+    "en": "The components already exist. They were not installed by this app and will not be managed.",
+    "zh-CN": "组件已存在，且并非由本应用安装，因此不会接管这些文件。"
+  },
+  {
+    "tr": "Bileşen yedek klasörü oluşturulamadı.",
+    "en": "Could not create the component backup folder.",
+    "zh-CN": "无法创建组件备份文件夹。"
+  },
+  {
+    "tr": "Kurulum sırasında oyun dosyası değişti. Kaldır / Geri al ile önceki kuruluma dönün.",
+    "en": "A game file changed during installation. Use Remove / Restore to return to the previous installation.",
+    "zh-CN": "安装期间游戏文件发生变化。请使用“卸载 / 恢复”返回之前的状态。"
+  },
+  {
+    "tr": "Bileşen kuruluyor: ",
+    "en": "Installing component: ",
+    "zh-CN": "正在安装组件："
+  },
+  {
+    "tr": "Yedekleme sırasında dosyalar değişmiş; otomatik geri alma durduruldu.",
+    "en": "Files changed during backup; automatic recovery stopped.",
+    "zh-CN": "备份期间文件发生变化；已停止自动恢复。"
+  },
+  {
+    "tr": "Bileşen dosyası sonradan değişmiş: ",
+    "en": "Component file changed after installation: ",
+    "zh-CN": "安装后组件文件被更改："
+  },
+  {
+    "tr": ". Dosya korunuyor; geri alma durduruldu.",
+    "en": ". The file is preserved; recovery stopped.",
+    "zh-CN": "。已保留该文件；恢复已停止。"
+  },
+  {
+    "tr": "Orijinal dosya yedeği doğrulanamadı. Geri alma durduruldu.",
+    "en": "Could not verify the original backup. Recovery stopped.",
+    "zh-CN": "无法验证原文件备份。恢复已停止。"
+  },
+  {
+    "tr": "Geri alma sırasında dosya değişti.",
+    "en": "The file changed during recovery.",
+    "zh-CN": "恢复期间文件发生变化。"
+  },
+  {
+    "tr": "Önceki dosya geri alınıyor: ",
+    "en": "Restoring original file: ",
+    "zh-CN": "正在恢复原文件："
+  },
+  {
+    "tr": "Dosyalar geri alındı ancak yedek arşivlenemedi. Yeniden Kaldır seçin.",
+    "en": "Files restored, but the backup could not be archived. Select Remove again.",
+    "zh-CN": "文件已恢复，但无法归档备份。请再次选择“卸载”。"
+  },
+  {
+    "tr": "DLSS 5 bileşeni hazırlanıyor: ",
+    "en": "Preparing DLSS 5 component: ",
+    "zh-CN": "正在准备 DLSS 5 组件："
+  },
+  {
+    "tr": "DLSS 5 bileşen doğrulaması tamamlanamadı.",
+    "en": "DLSS 5 component verification did not complete.",
+    "zh-CN": "DLSS 5 组件验证未完成。"
+  },
+  {
+    "tr": "DLSS 5 paketi hazır. Tüm bileşenler doğrulandı.",
+    "en": "DLSS 5 package ready. All components verified.",
+    "zh-CN": "DLSS 5 安装包已就绪。所有组件均已验证。"
+  },
+  {
+    "tr": "Dosyalar sonradan değişmiş. Otomatik işlem durduruldu.",
+    "en": "Files changed after installation. Automatic operations stopped.",
+    "zh-CN": "安装后文件发生变化。已停止自动操作。"
+  },
+  {
+    "tr": " kurulu · RTX ",
+    "en": " installed · RTX ",
+    "zh-CN": " 已安装 · RTX "
+  },
+  {
+    "tr": "Yarım / eksik kurulum. Kaldır / Geri al ile kurtarabilirsiniz.",
+    "en": "Incomplete installation. Use Remove / Restore to recover.",
+    "zh-CN": "安装未完成。请使用“卸载 / 恢复”恢复。"
+  },
+  {
+    "tr": "Önce oyun EXE dosyasını seçin.",
+    "en": "Select a game EXE file first.",
+    "zh-CN": "请先选择游戏 EXE 文件。"
+  },
+  {
+    "tr": "64 bit DirectX 11/12 kurulumu hazır.",
+    "en": "Ready for 64-bit DirectX 11/12 installation.",
+    "zh-CN": "已准备好安装到 64 位 DirectX 11/12 游戏。"
+  },
+  {
+    "tr": "Bu sürüm 64 bit DirectX 11/12 oyunlarını destekliyor. Gerçek oyun EXE dosyasını seçin.",
+    "en": "This version supports 64-bit DirectX 11/12 games. Select the actual game EXE.",
+    "zh-CN": "此版本支持 64 位 DirectX 11/12 游戏。请选择游戏的实际 EXE 文件。"
+  },
+  {
+    "tr": "Başka bir DLSS 5 eklentisi mevcut. Önce onu kendi kurulum aracıyla kaldırın.",
+    "en": "Another DLSS 5 add-on exists. Remove it with its own installer first.",
+    "zh-CN": "已存在其他 DLSS 5 插件。请先使用其安装工具卸载。"
+  },
+  {
+    "tr": "ASI üzerinden ReShade mevcut. İkinci ReShade kurulumu yapılmadı.",
+    "en": "An ASI-based ReShade installation exists. No second copy was installed.",
+    "zh-CN": "已存在通过 ASI 加载的 ReShade。未安装第二份副本。"
+  },
+  {
+    "tr": "MFG şu anda dxgi.dll kullanıyor. DLSS 5 için bu dosya değiştirilemez; önce MFG'nin ayrı yükleme yolu gerekir.",
+    "en": "MFG currently uses dxgi.dll. DLSS 5 cannot replace it; MFG needs a separate loading path first.",
+    "zh-CN": "MFG 正在使用 dxgi.dll。DLSS 5 无法替换该文件；MFG 需先使用独立加载路径。"
+  },
+  {
+    "tr": "Mevcut dxgi.dll doğrulanmış bir ReShade Add-on sürümü değil. Değiştirmek istiyorsanız 'Mevcut grafik yükleyicisini yedekleyip değiştir' kutusunu işaretleyin.",
+    "en": "The existing dxgi.dll is not a verified ReShade Add-on build. To replace it, check 'Back up and replace the existing graphics loader'.",
+    "zh-CN": "现有 dxgi.dll 不是已验证的 ReShade Add-on 版本。如需替换，请勾选“备份并替换现有图形加载器”。"
+  },
+  {
+    "tr": "Başka adla yüklenen ReShade bulundu. İkinci kopya kurulmadı; mevcut kurulumu önce kaldırın.",
+    "en": "ReShade is loaded under another name. Remove the existing installation before installing a second copy.",
+    "zh-CN": "检测到以其他名称加载的 ReShade。请先卸载现有版本，再安装新副本。"
+  },
+  {
+    "tr": "ReShade ayarında RenoDX devre dışı. ReShade menüsünden etkinleştirip tekrar deneyin.",
+    "en": "RenoDX is disabled in ReShade settings. Enable it in the ReShade menu and try again.",
+    "zh-CN": "ReShade 设置中已禁用 RenoDX。请在 ReShade 菜单中启用后重试。"
+  },
+  {
+    "tr": "DLSS 5 kuruldu. Oyunda Home → Add-ons → RenoDX DLSS5 bölümünü açın.",
+    "en": "DLSS 5 installed. In the game, open Home → Add-ons → RenoDX DLSS5.",
+    "zh-CN": "DLSS 5 已安装。请在游戏中打开 Home → Add-ons → RenoDX DLSS5。"
+  },
+  {
+    "tr": " Bu seri bilgisayarda yok: indirme açık, kurulum kapalı.",
+    "en": " This series is absent on this PC: download allowed, installation blocked.",
+    "zh-CN": " 此电脑未检测到该系列：可下载，但不可安装。"
+  },
+  {
+    "tr": "DLSS 5 kurulumu kontrol ediliyor…",
+    "en": "Checking the DLSS 5 installation…",
+    "zh-CN": "正在检查 DLSS 5 安装状态…"
+  },
+  {
+    "tr": "DLSS 5 paketi hazır. Oyuna kur seçeneğini kullanabilirsiniz.",
+    "en": "DLSS 5 package ready. You can now install it into the game.",
+    "zh-CN": "DLSS 5 安装包已就绪。现在可以安装到游戏中。"
+  },
+  {
+    "tr": "DLSS 5 kuruldu. Oyunda Home → Add-ons → RenoDX DLSS5. Mevcut DLSS yönteminde oyunun DLSS ayarını da açın.",
+    "en": "DLSS 5 installed. In-game: Home → Add-ons → RenoDX DLSS5. For the native route, also enable DLSS in the game's settings.",
+    "zh-CN": "DLSS 5 已安装。在游戏中打开 Home → Add-ons → RenoDX DLSS5。使用游戏现有 DLSS 的方式时，也需在游戏设置中启用 DLSS。"
+  },
+  {
+    "tr": "DLSS 5 kaldırıldı; önceki dosyalar geri alındı. Son ayarlar oyun klasöründeki .dlssalltools-dlss5-restored yedeğinde saklandı.",
+    "en": "DLSS 5 removed; original files restored. Latest settings are saved in the game's .dlssalltools-dlss5-restored backup.",
+    "zh-CN": "DLSS 5 已卸载，原文件已恢复。最新设置保存在游戏目录的 .dlssalltools-dlss5-restored 备份中。"
+  },
+  {
+    "tr": " Seçili paket hazır.",
+    "en": " Selected package ready.",
+    "zh-CN": " 所选安装包已就绪。"
+  },
+  {
+    "tr": " Seçili paket henüz indirilmedi.",
+    "en": " Selected package has not been downloaded yet.",
+    "zh-CN": " 所选安装包尚未下载。"
+  },
+  {
+    "tr": "Oyunun mevcut DLSS özelliğini kullan",
+    "en": "Use the game's existing DLSS support",
+    "zh-CN": "使用游戏现有的 DLSS 功能"
+  },
+  {
+    "tr": "DLSS olmayan oyun — Feeder",
+    "en": "Game without DLSS — Feeder",
+    "zh-CN": "无 DLSS 的游戏 — Feeder"
+  },
+  {
+    "tr": "Yedek anahtarı oluşturulamadı.",
+    "en": "Could not create the backup key.",
+    "zh-CN": "无法创建备份键。"
+  },
+  {
+    "tr": "Genel NVIDIA profili değiştirilemez. Oyuna özel profil gerekli.",
+    "en": "The global NVIDIA profile cannot be changed. A game-specific profile is required.",
+    "zh-CN": "不能更改 NVIDIA 全局配置。需要游戏专用配置。"
+  },
+  {
+    "tr": "NVIDIA profili başka bir programa da bağlı. Otomatik ayar bu profil için desteklenmiyor.",
+    "en": "The NVIDIA profile is shared with another application. Automatic changes are not supported for this profile.",
+    "zh-CN": "此 NVIDIA 配置与其他应用共享。不支持对此配置自动更改。"
+  },
+  {
+    "tr": "NVIDIA profili seçili oyunla eşleşmiyor.",
+    "en": "The NVIDIA profile does not match the selected game.",
+    "zh-CN": "NVIDIA 配置与所选游戏不匹配。"
+  },
+  {
+    "tr": "Ayar yedeği bu oyun/profille eşleşmiyor. NVIDIA ayarları değiştirilmedi.",
+    "en": "The settings backup does not match this game/profile. NVIDIA settings were not changed.",
+    "zh-CN": "设置备份与此游戏或配置不匹配。未更改 NVIDIA 设置。"
+  },
+  {
+    "tr": "Ayar yedeği doğrulanamadı.",
+    "en": "Could not verify the settings backup.",
+    "zh-CN": "无法验证设置备份。"
+  },
+  {
+    "tr": "Ayar yedeği tutarsız.",
+    "en": "The settings backup is inconsistent.",
+    "zh-CN": "设置备份存在不一致。"
+  },
+  {
+    "tr": "NVIDIA ayarı sonradan başka bir yerde değiştirilmiş. Üzerine yazmamak için işlem durduruldu.",
+    "en": "The NVIDIA setting was changed elsewhere. The operation stopped to avoid overwriting it.",
+    "zh-CN": "NVIDIA 设置已被其他程序更改。为避免覆盖，操作已停止。"
+  },
+  {
+    "tr": "Preset B ve DLSS-FG override kayıtlı. Oyunu tamamen kapatıp yeniden açın.",
+    "en": "Preset B and DLSS-FG override are saved. Close the game completely, then restart it.",
+    "zh-CN": "已保存 Preset B 和 DLSS-FG 覆盖设置。请完全关闭游戏后重新启动。"
+  },
+  {
+    "tr": "Yedek bulundu; işlem tamamlanmamış veya ayar değişmiş. Kutuyu kaldırarak önceki ayarı geri alın.",
+    "en": "A backup exists; the operation is incomplete or the setting changed. Uncheck the box to restore the previous setting.",
+    "zh-CN": "已有备份；操作未完成或设置发生变化。请取消勾选以恢复之前的设置。"
+  },
+  {
+    "tr": "Bu iki ayar zaten etkin. Uygulama bir değişiklik yapmadı; sorunun başka bir nedeni olabilir.",
+    "en": "Both settings are already enabled. No changes were made; the issue may have another cause.",
+    "zh-CN": "这两项设置已启用。未作更改；问题可能由其他原因引起。"
+  },
+  {
+    "tr": "Hazır. Kutuyu işaretlediğinizde bu oyunun NVIDIA profiline uygulanır.",
+    "en": "Ready. Check the box to apply this fix to the game's NVIDIA profile.",
+    "zh-CN": "已就绪。勾选后即可将修复应用于此游戏的 NVIDIA 配置。"
+  },
+  {
+    "tr": "Önce oyunu tamamen kapatın. Sonra seçeneği yeniden deneyin.",
+    "en": "Close the game completely, then try this option again.",
+    "zh-CN": "请完全关闭游戏后，再次尝试此选项。"
+  },
+  {
+    "tr": "Geçerli bir 64 bit oyun EXE dosyası gerekli.",
+    "en": "A valid 64-bit game EXE file is required.",
+    "zh-CN": "需要有效的 64 位游戏 EXE 文件。"
+  },
+  {
+    "tr": "Bu profilin ayar yedeği zaten var. Önce kutuyu kaldırarak geri alın.",
+    "en": "This profile already has a settings backup. Uncheck the box to restore it first.",
+    "zh-CN": "此配置已有设置备份。请先取消勾选以恢复。"
+  },
+  {
+    "tr": "Preset B ve DLSS-FG override zaten etkin; değişiklik yapılmadı.",
+    "en": "Preset B and DLSS-FG override are already enabled; no changes made.",
+    "zh-CN": "Preset B 和 DLSS-FG 覆盖设置已启用；未作更改。"
+  },
+  {
+    "tr": "NVIDIA ayarları kaydedildikten sonra doğrulanamadı.",
+    "en": "Could not verify NVIDIA settings after saving.",
+    "zh-CN": "保存后无法验证 NVIDIA 设置。"
+  },
+  {
+    "tr": "Bu uygulamaya ait ayar yedeği bulunamadı. Mevcut ayarlara dokunulmadı.",
+    "en": "No settings backup from this app was found. Existing settings were left unchanged.",
+    "zh-CN": "未找到本应用创建的设置备份。未更改现有设置。"
+  },
+  {
+    "tr": "NVIDIA profili işlem sırasında değişti; yedek korundu.",
+    "en": "The NVIDIA profile changed during the operation; the backup was kept.",
+    "zh-CN": "操作期间 NVIDIA 配置发生变化；已保留备份。"
+  },
+  {
+    "tr": "Önceki NVIDIA ayarı doğrulanamadı; yedek korundu.",
+    "en": "Could not verify the previous NVIDIA setting; the backup was kept.",
+    "zh-CN": "无法验证之前的 NVIDIA 设置；已保留备份。"
+  },
+  {
+    "tr": "Önceki ayarlar geri alındı; yedek kaydı temizlenemedi.",
+    "en": "Previous settings restored, but the backup record could not be removed.",
+    "zh-CN": "之前的设置已恢复，但无法删除备份记录。"
+  },
+  {
+    "tr": "RTX 20/30 MFG 0.3.5 hazırlanıyor: ",
+    "en": "Preparing RTX 20/30 MFG 0.3.5: ",
+    "zh-CN": "正在准备 RTX 20/30 MFG 0.3.5："
+  },
+  {
+    "tr": "MFG paketi 64 bit DLL değil.",
+    "en": "The MFG package is not a 64-bit DLL.",
+    "zh-CN": "MFG 安装包不是 64 位 DLL。"
+  },
+  {
+    "tr": "MFG dosyaları doğrulanamadı.",
+    "en": "Could not verify the MFG files.",
+    "zh-CN": "无法验证 MFG 文件。"
+  },
+  {
+    "tr": "Önce mevcut RTX 40 MFG kurulumunu kaldırın.",
+    "en": "Remove the existing RTX 40 MFG installation first.",
+    "zh-CN": "请先卸载现有的 RTX 40 MFG。"
+  },
+  {
+    "tr": "Elle kurulmuş RTX 20/30 MFG ayarı bulundu. Önce mevcut modu kaldırın.",
+    "en": "A manual RTX 20/30 MFG configuration was found. Remove the existing mod first.",
+    "zh-CN": "发现手动安装的 RTX 20/30 MFG 配置。请先卸载现有模组。"
+  },
+  {
+    "tr": "RTX 20/30 MFG için oyunun DirectX 12 EXE dosyasını seçin.",
+    "en": "Select the game's DirectX 12 EXE for RTX 20/30 MFG.",
+    "zh-CN": "使用 RTX 20/30 MFG 时，请选择游戏的 DirectX 12 EXE 文件。"
+  },
+  {
+    "tr": "Elle kurulmuş MFG 0.3.5 bulundu. Dosya korunuyor.",
+    "en": "A manual MFG 0.3.5 installation was found. The file is preserved.",
+    "zh-CN": "发现手动安装的 MFG 0.3.5。已保留该文件。"
+  },
+  {
+    "tr": "Boş ve doğrulanabilir bir yükleme yolu yok. Oyun profili gerekiyor.",
+    "en": "No available verified loading path. A game profile is needed.",
+    "zh-CN": "没有可用且可验证的加载路径。需要游戏配置。"
+  },
+  {
+    "tr": "MFG 0.3.5 · DX12 · 2x/3x/4x. Oyuna göre uyumluluk değişir.",
+    "en": "MFG 0.3.5 · DX12 · 2x/3x/4x. Compatibility varies by game.",
+    "zh-CN": "MFG 0.3.5 · DX12 · 2x/3x/4x。兼容性因游戏而异。"
+  },
+  {
+    "tr": "Bu MFG paketi yalnızca RTX 20 ve RTX 30 için seçilebilir.",
+    "en": "This MFG package is only for RTX 20 and RTX 30.",
+    "zh-CN": "此 MFG 安装包仅适用于 RTX 20 和 RTX 30。"
+  },
+  {
+    "tr": "Oyun dosyaları değişti; yeniden kontrol edin.",
+    "en": "Game files changed; check again.",
+    "zh-CN": "游戏文件发生变化；请重新检查。"
+  },
+  {
+    "tr": "1.3.3 Hotfix 2 (önceki)",
+    "en": "1.3.3 Hotfix 2 (previous)",
+    "zh-CN": "1.3.3 Hotfix 2（旧版）"
+  },
+  {
+    "tr": "DLSS 5 · Neural Rendering",
+    "en": "DLSS 5 · Neural Rendering",
+    "zh-CN": "DLSS 5 · 神经渲染"
+  },
+  {
+    "tr": "MFG'den bağımsız kurulur ve kaldırılır. Kurulum için oyunu kapatın.",
+    "en": "Installed and removed separately from MFG. Close the game before installing.",
+    "zh-CN": "与 MFG 独立安装和卸载。安装前请关闭游戏。"
+  },
+  {
+    "tr": "Ekran kartı paketi",
+    "en": "Graphics card package",
+    "zh-CN": "显卡安装包"
+  },
+  {
+    "tr": "Kurulum yöntemi",
+    "en": "Installation method",
+    "zh-CN": "安装方式"
+  },
+  {
+    "tr": "Mevcut grafik yükleyicisini yedekleyip değiştir (gerekirse)",
+    "en": "Back up and replace the existing graphics loader (if needed)",
+    "zh-CN": "备份并替换现有图形加载器（如有需要）"
+  },
+  {
+    "tr": "ReShade + RenoDX ve gerekli DLSS dosyaları indirilir. Feeder, DLSS olmayan oyunlar içindir. 64 bit DirectX 11/12. Oyunda Home → Add-ons ile ayarlayın.",
+    "en": "Downloads ReShade, RenoDX and required DLSS files. Feeder is for games without DLSS. 64-bit DirectX 11/12. Configure in-game with Home → Add-ons.",
+    "zh-CN": "下载 ReShade、RenoDX 及所需 DLSS 文件。Feeder 用于无 DLSS 的游戏。支持 64 位 DirectX 11/12。游戏内通过 Home → Add-ons 设置。"
+  },
+  {
+    "tr": "Paketi indir",
+    "en": "Download package",
+    "zh-CN": "下载安装包"
+  },
+  {
+    "tr": "DLSS 5'i kur",
+    "en": "Install DLSS 5",
+    "zh-CN": "安装 DLSS 5"
+  },
+  {
+    "tr": "Kaldır / Geri al",
+    "en": "Remove / Restore",
+    "zh-CN": "卸载 / 恢复"
+  },
+  {
+    "tr": "3x / 4x görüntü sorunu",
+    "en": "3x / 4x image issues",
+    "zh-CN": "3x / 4x 画面问题"
+  },
+  {
+    "tr": "2x çalışıyor, 3x / 4x görüntüsü bozuluyorsa",
+    "en": "2x works, but 3x / 4x causes image issues",
+    "zh-CN": "2x 正常，但 3x / 4x 画面异常"
+  },
+  {
+    "tr": "Bu seçenek seçili oyunun NVIDIA profilinde Preset B'yi seçer ve DLSS-FG override ayarını açar. Genel ekran kartı ayarlarını değiştirmez.",
+    "en": "Selects Preset B and enables DLSS-FG override in this game's NVIDIA profile. Global graphics settings are not changed.",
+    "zh-CN": "在此游戏的 NVIDIA 配置中选择 Preset B，并启用 DLSS-FG 覆盖设置。不更改全局显卡设置。"
+  },
+  {
+    "tr": "Preset B çözümünü etkinleştir",
+    "en": "Enable the Preset B fix",
+    "zh-CN": "启用 Preset B 修复"
+  },
+  {
+    "tr": "Oyunu tamamen kapatıp işaretleyin, sonra yeniden açın. Önceki iki ayar yedeklenir; işareti kaldırınca geri alınır. Bu yöntem her görüntü sorununu çözmeyebilir.",
+    "en": "Close the game, check the box, then restart. Both previous settings are backed up and restored when unchecked. This may not resolve every image issue.",
+    "zh-CN": "请关闭游戏，勾选后重新启动。会备份之前的两项设置，取消勾选即可恢复。此方法不一定能解决所有画面问题。"
+  },
+  {
+    "tr": "Kurulu",
+    "en": "Installed",
+    "zh-CN": "已安装"
+  },
+  {
+    "tr": "Kurulabilir*",
+    "en": "Ready*",
+    "zh-CN": "可安装*"
+  },
+  {
+    "tr": "Oyun",
+    "en": "Game",
+    "zh-CN": "游戏"
+  },
+  {
+    "tr": "Kaynak",
+    "en": "Store",
+    "zh-CN": "来源"
+  },
+  {
+    "tr": "KURULUM",
+    "en": "INSTALLATION",
+    "zh-CN": "安装"
+  },
+  {
+    "tr": "Kapat",
+    "en": "Close",
+    "zh-CN": "关闭"
+  },
+  {
+    "tr": "Dil",
+    "en": "Language",
+    "zh-CN": "语言"
+  },
+  {
+    "tr": "Dil değiştirildi ve kaydedildi.",
+    "en": "Language changed and saved.",
+    "zh-CN": "语言已更改并保存。"
+  }
+]

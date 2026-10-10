@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64"><Configuration>Debug</Configuration><Platform>x64</Platform></ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>18.0</VCProjectVersion><Keyword>Win32Proj</Keyword><ProjectGuid>{e2be227b-f575-4078-9589-49b4581ebb91}</ProjectGuid><RootNamespace>dlssalltools</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>Application</ConfigurationType><PlatformToolset>v145</PlatformToolset><CharacterSet>Unicode</CharacterSet><UseDebugLibraries Condition="'$(Configuration)'=='Debug'">true</UseDebugLibraries><UseDebugLibraries Condition="'$(Configuration)'!='Debug'">false</UseDebugLibraries></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup><OutDir>$(ProjectDir)out\$(Platform)\$(Configuration)\</OutDir><IntDir>$(ProjectDir)out\obj\$(Platform)\$(Configuration)\</IntDir><TargetName>DLSSAllTools</TargetName></PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile><WarningLevel>Level4</WarningLevel><SDLCheck>true</SDLCheck><ConformanceMode>true</ConformanceMode><LanguageStandard>stdcpp20</LanguageStandard><PreprocessorDefinitions>UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions><AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions><RuntimeLibrary>MultiThreaded</RuntimeLibrary><MultiProcessorCompilation>true</MultiProcessorCompilation><ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel><Optimization Condition="'$(Configuration)'=='Release'">MaxSpeed</Optimization><Optimization Condition="'$(Configuration)'=='Debug'">Disabled</Optimization><DebugInformationFormat>OldStyle</DebugInformationFormat></ClCompile>
+    <Link><SubSystem>Windows</SubSystem><AdditionalDependencies>comctl32.lib;dwmapi.lib;uxtheme.lib;winhttp.lib;bcrypt.lib;dxgi.lib;shell32.lib;ole32.lib;advapi32.lib;version.lib;user32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies><GenerateDebugInformation>true</GenerateDebugInformation></Link>
+    <Manifest><AdditionalManifestFiles>app.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles></Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup><ClCompile Include="src\main.cpp"/><ClCompile Include="src\core.cpp"/><ClCompile Include="src\tests.cpp"/><ClCompile Include="src\driver.cpp"/><ClCompile Include="src\preset.cpp"/><ClCompile Include="src\neural.cpp"/><ClCompile Include="src\neural_dialog.cpp"/></ItemGroup>
+  <ItemGroup><ClInclude Include="src\core.hpp"/><ClInclude Include="src\preset.hpp"/><ClInclude Include="src\neural.hpp"/><ClInclude Include="src\neural_catalog.hpp"/><ClInclude Include="third_party\json.hpp"/></ItemGroup>
+  <ItemGroup><ResourceCompile Include="resources.rc"/></ItemGroup>
+  <ItemGroup><None Include="app.manifest"/><None Include="docs\PROGRESS.md"/><None Include="README.md"/></ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+<ItemGroup><ClCompile Include="src\gpu.cpp"/><ClInclude Include="src\gpu.hpp"/></ItemGroup>
+<ItemGroup><ClCompile Include="src\sm86.cpp"/><ClInclude Include="src\sm86.hpp"/></ItemGroup>
+<ItemGroup><ClCompile Include="src\localization.cpp"/><ClInclude Include="src\localization.hpp"/><ClInclude Include="src\translations.inc"/><None Include="resources\translations.json"/><None Include="tools\generate_translations.py"/></ItemGroup>
+</Project>
+
+

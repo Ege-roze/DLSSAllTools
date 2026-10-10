@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<ItemGroup><Filter Include="Kaynaklar"/><Filter Include="Bagimliliklar"/><Filter Include="Belgeler"/><Filter Include="Kaynak dosyalari"/></ItemGroup>
+<ItemGroup><ClCompile Include="src\main.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\core.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\tests.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\driver.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\preset.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\neural.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClCompile Include="src\neural_dialog.cpp"><Filter>Kaynaklar</Filter></ClCompile></ItemGroup>
+<ItemGroup><ClInclude Include="src\core.hpp"><Filter>Kaynaklar</Filter></ClInclude><ClInclude Include="src\preset.hpp"><Filter>Kaynaklar</Filter></ClInclude><ClInclude Include="src\neural.hpp"><Filter>Kaynaklar</Filter></ClInclude><ClInclude Include="src\neural_catalog.hpp"><Filter>Kaynaklar</Filter></ClInclude><ClInclude Include="third_party\json.hpp"><Filter>Bagimliliklar</Filter></ClInclude></ItemGroup>
+<ItemGroup><ResourceCompile Include="resources.rc"><Filter>Kaynak dosyalari</Filter></ResourceCompile></ItemGroup>
+<ItemGroup><None Include="app.manifest"><Filter>Kaynak dosyalari</Filter></None><None Include="docs\PROGRESS.md"><Filter>Belgeler</Filter></None><None Include="README.md"><Filter>Belgeler</Filter></None></ItemGroup>
+<ItemGroup><ClCompile Include="src\gpu.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClInclude Include="src\gpu.hpp"><Filter>Kaynaklar</Filter></ClInclude></ItemGroup>
+<ItemGroup><ClCompile Include="src\sm86.cpp"><Filter>Kaynaklar</Filter></ClCompile><ClInclude Include="src\sm86.hpp"><Filter>Kaynaklar</Filter></ClInclude></ItemGroup>
+<ItemGroup><ClCompile Include="src\localization.cpp"/><ClInclude Include="src\localization.hpp"/><ClInclude Include="src\translations.inc"/><None Include="resources\translations.json"/><None Include="tools\generate_translations.py"/></ItemGroup>
+</Project>
+

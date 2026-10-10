@@ -1,0 +1,64 @@
+#include <windows.h>
+#pragma code_page(65001)
+101 ICON "assets/app.ico"
+1 VERSIONINFO
+FILEVERSION 0,6,0,0
+PRODUCTVERSION 0,6,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "FileDescription", "DLSS All Tools"
+   VALUE "FileVersion", "0.6.0"
+   VALUE "ProductName", "DLSS All Tools"
+   VALUE "ProductVersion", "0.6.0"
+   VALUE "OriginalFilename", "DLSSAllTools.exe"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END
+
+202 DIALOGEX 0, 0, 410, 354
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DLSS 5"
+FONT 10, "Segoe UI"
+BEGIN
+ LTEXT "DLSS 5 · Neural Rendering", -1, 16, 12, 378, 18
+ LTEXT "MFG'den bağımsız kurulur ve kaldırılır. Kurulum için oyunu kapatın.", -1, 16, 34, 378, 24
+ LTEXT "Ekran kartı paketi", -1, 16, 58, 378, 14
+ COMBOBOX 1301, 16, 74, 378, 130, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+ LTEXT "", 1308, 16, 100, 378, 34
+ LTEXT "Kurulum yöntemi", -1, 16, 138, 378, 14
+ COMBOBOX 1302, 16, 154, 378, 70, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+ CONTROL "Mevcut grafik yükleyicisini yedekleyip değiştir (gerekirse)", 1303, "Button", BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP, 16, 180, 378, 27
+ LTEXT "ReShade + RenoDX ve gerekli DLSS dosyaları indirilir. Feeder, DLSS olmayan oyunlar içindir. 64 bit DirectX 11/12. Oyunda Home → Add-ons ile ayarlayın.", -1, 16, 210, 378, 35
+ PUSHBUTTON "Paketi indir", 1305, 16, 250, 116, 24
+ DEFPUSHBUTTON "DLSS 5'i kur", 1306, 139, 250, 124, 24
+ PUSHBUTTON "Kaldır / Geri al", 1307, 270, 250, 124, 24
+ LTEXT "", 1304, 16, 282, 378, 40
+ PUSHBUTTON "Kapat", IDCANCEL, 324, 328, 70, 18
+END
+
+
+
+201 DIALOGEX 0, 0, 360, 280
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "3x / 4x görüntü sorunu"
+FONT 10, "Segoe UI"
+BEGIN
+ LTEXT "2x çalışıyor, 3x / 4x görüntüsü bozuluyorsa", -1, 16, 14, 328, 20
+ LTEXT "NVIDIA oyun profili okunuyor…", 1203, 16, 42, 328, 25
+ LTEXT "Bu seçenek seçili oyunun NVIDIA profilinde Preset B'yi seçer ve DLSS-FG override ayarını açar. Genel ekran kartı ayarlarını değiştirmez.", -1, 16, 76, 328, 39
+ CONTROL "Preset B çözümünü etkinleştir", 1201, "Button", BS_CHECKBOX | BS_MULTILINE | WS_TABSTOP, 16, 122, 328, 24
+ LTEXT "Oyunu tamamen kapatıp işaretleyin, sonra yeniden açın. Önceki iki ayar yedeklenir; işareti kaldırınca geri alınır. Bu yöntem her görüntü sorununu çözmeyebilir.", -1, 16, 155, 328, 42
+ LTEXT "", 1202, 16, 205, 328, 44
+ DEFPUSHBUTTON "Kapat", IDCANCEL, 276, 254, 68, 18
+END
