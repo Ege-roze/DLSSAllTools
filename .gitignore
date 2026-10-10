@@ -1,0 +1,10 @@
+.vs/
+out/
+x64/
+Debug/
+Release/
+*.user
+*.VC.db
+*.VC.opendb
+.checkpoints/
+DLSSAllTools.exe
